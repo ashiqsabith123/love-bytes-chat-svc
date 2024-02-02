@@ -1,0 +1,10 @@
+General Logger:	2024/02/02 16:14:43 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/02 16:14:43 database.go:33: Mongo connected successfully
+General Logger:	2024/02/02 16:19:51 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/02 16:19:51 database.go:33: Mongo connected successfully map[ok:1]
