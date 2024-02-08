@@ -10,7 +10,12 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-func ConnectToDatabase(config config.Config) (*mongo.Client, error) {
+type Collections struct {
+	Chat_rooms *mongo.Collection
+}
+
+func ConnectToDatabase(config config.Config) *Collections {
+
 	serverAPI := options.ServerAPI(options.ServerAPIVersion1)
 	opts := options.Client().ApplyURI(config.MongoDB.MongoUri).SetServerAPIOptions(serverAPI)
 
@@ -18,20 +23,22 @@ func ConnectToDatabase(config config.Config) (*mongo.Client, error) {
 	if err != nil {
 		panic(err)
 	}
-	defer func() {
-		if err = client.Disconnect(context.TODO()); err != nil {
-			panic(err)
-		}
-	}()
 
-	// Send a ping to confirm a successful connection
 	var result bson.M
 	if err := client.Database("chat-svc").RunCommand(context.TODO(), bson.D{{"ping", 1}}).Decode(&result); err != nil {
-		logs.ErrLog.Println(err)
-		return nil, err
+		logs.ErrLog.Fatal(err)
+		return nil
 	}
 	logs.GenLog.Println("Mongo connected successfully", result)
 
-	return client, nil
+	chatDatabase := client.Database("chat-svc")
+
+	chatDatabase.CreateCollection(context.Background(), "chat_rooms")
+
+	chat_rooms := chatDatabase.Collection("chat_rooms")
+
+	return &Collections{
+		Chat_rooms: chat_rooms,
+	}
 
 }

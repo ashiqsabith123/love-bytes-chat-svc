@@ -8,3 +8,107 @@ General Logger:	2024/02/02 16:19:51 logger.go:29:
 
 Application restarted ---------
 General Logger:	2024/02/02 16:19:51 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 11:15:53 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 11:15:53 database.go:38: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 11:19:59 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 11:19:59 database.go:40: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 11:20:56 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 11:20:56 database.go:40: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 11:22:34 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 11:22:34 database.go:38: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 12:03:22 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 12:03:22 database.go:32: Mongo connected successfully map[ok:1]
+Error Logger:	2024/02/03 12:03:22 database.go:38: error creating collections(NamespaceExists) Collection chat-svc.chat_rooms already exists.
+General Logger:	2024/02/03 12:09:04 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 12:09:04 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 12:09:04 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/03 12:11:00 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 12:11:00 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 12:11:00 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/03 12:19:37 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/03 12:19:37 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/03 12:19:37 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 10:08:31 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 10:08:31 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 10:08:31 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 10:12:12 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 10:12:12 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 10:12:12 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 10:12:27 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 10:12:27 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 10:12:27 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 10:19:45 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 10:19:45 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 10:19:45 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 12:15:15 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:15:15 database.go:33: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:15:15 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 12:21:21 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:21:21 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:21:21 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 12:25:54 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:25:54 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:25:54 main.go:36: Auth Svc connected on :50054
+General Logger:	2024/02/07 12:32:59 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:32:59 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:32:59 main.go:36: Chat Svc connected on :50054
+General Logger:	2024/02/07 12:35:12 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:35:12 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:35:12 main.go:36: Chat Svc connected on :50054
+General Logger:	2024/02/07 12:44:20 logger.go:29: 
+
+
+Application restarted ---------
+General Logger:	2024/02/07 12:44:20 database.go:32: Mongo connected successfully map[ok:1]
+General Logger:	2024/02/07 12:44:20 main.go:36: Chat Svc connected on :50054

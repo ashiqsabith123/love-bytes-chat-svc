@@ -6,8 +6,13 @@ type DbConfig struct {
 	MongoUri string `mapstructure:"uri"`
 }
 
+type Port struct {
+	SvcPort string `mapstructure:"port"`
+}
+
 type Config struct {
 	MongoDB DbConfig `mapstructure:"mongo"`
+	Port     Port         `mapstructure:"svc-port"`
 }
 
 var config Config
